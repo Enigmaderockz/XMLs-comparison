@@ -17,3 +17,9 @@ for node in root_2.findall('.//product'):
             d2.append(x.attrib.values()[0])
         if x.text.strip():
             d2.append(x.text.strip())
+ 
+if not (set(d1) - set(d2)):
+    print('Data is same in both XML files') 
+else:
+    print('Data is different in both XML files')
+    print(set(d1) - set(d2))
