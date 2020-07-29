@@ -17,3 +17,10 @@ Out[25]:
 1  Mahesh  [234, 4554]     [a-vf, a-bg]  [34, 45]
 2  Suresh         2345             a-b2        24
 3  yankie  [999, 3453]  [z-bg, g-bgbbg]  [34, 45]
+
+
+import pandas as pd
+
+df = pd.read_csv("a.csv", sep="|", dtype=str)
+new_df = df.groupby('Name',as_index=False).aggregate(lambda tdf: tdf.unique().tolist() if tdf.shape[0] > 1 else tdf)
+new_df.to_csv("data.csv", index=False, sep="|")
