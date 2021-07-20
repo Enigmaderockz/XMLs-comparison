@@ -1,0 +1,7 @@
+# catalog #
+ABC.TABLE_NAME:ABC_STG
+ABC.CATALOG:path/fcg/abc_alma_??????.csv
+#ABC.TIME:60
+ABC.LENGTH:80
+
+ABC.LOAN:daily

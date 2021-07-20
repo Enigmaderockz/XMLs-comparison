@@ -1,0 +1,7 @@
+# catalog #
+XYZ.TABLE_NAME:LMN_STG ABC_STG
+XYZ.CATALOG:path/fcg/xyz_jma_??????.csv
+#XYZ.TIME:60
+XYZ.LENGTH:80
+
+XYZ.BINGO:daily

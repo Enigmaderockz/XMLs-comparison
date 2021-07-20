@@ -1,0 +1,7 @@
+# catalog #
+LMN.TABLE_NAME:LMN_STG
+LMN.CATALOG:path/fcg/lmn_jma_??????.csv
+#LMN.TIME:60
+LMN.LENGTH:80
+
+LMN.LOAN:daily
